@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="TestRun1">
+        <classes>
+            <class name="StringOperation3Test"/>
+            <class name="StringOperationTest">
+                <methods>
+                    <exclude name="testPolindrom1"/>
+                    <exclude name="testPolindrom2"/>
+                    <exclude name="testPolindrom3"/>
+                </methods>
+            </class>
+            <class name="StringOperation2Test">
+                <methods>
+                    <include name="testPolindrom1"/>
+                    <include name="testPolindrom2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TestRun2 Polindroms params">
+        <classes>
+            <class name="StringOperationTest">
+                <methods>
+                    <include name="testPolindrom3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
