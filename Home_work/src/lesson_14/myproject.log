@@ -1,0 +1,20 @@
+15:45:19,606  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:19,617  INFO main vkApiTest:DeletePostOnWall:84 - get the number of posts on the wall
+15:45:19,618  INFO main vkApiTest:DeletePostOnWall:87 - get ID last post on the wall
+15:45:19,812  INFO main vkApiTest:DeletePostOnWall:97 - delete last post on the wall
+15:45:19,813  INFO main vkApiTest:DeletePostOnWall:100 - check the response after deleted last post
+15:45:20,202  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:20,227  INFO main vkApiTest:DeletePostOnWall:104 - get the number of posts on the wall after delete post
+15:45:20,227  INFO main vkApiTest:DeletePostOnWall:107 - check that the number of posts has decreased by 1
+15:45:20,464  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:20,486  INFO main vkApiTest:SentPostOnWall:25 - get the number of posts on the wall
+15:45:20,731  INFO main vkApiTest:SentPostOnWall:34 - set new post on wall
+15:45:21,005  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:21,030  INFO main vkApiTest:SentPostOnWall:38 - get the number of posts on the wall after new post
+15:45:21,031  INFO main vkApiTest:SentPostOnWall:40 - check that the number of posts increased by 1
+15:45:21,269  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:21,295  INFO main vkApiTest:EditPostOnWall:54 - get ID last post on the wall
+15:45:21,510  INFO main vkApiTest:EditPostOnWall:65 - edit 'message' in last post on the wall
+15:45:21,849  INFO main vkApiTest:GetAllWall:121 - get all posts in wall API
+15:45:21,875  INFO main vkApiTest:EditPostOnWall:70 - get 'message' last post on the wall
+15:45:21,876  INFO main vkApiTest:EditPostOnWall:73 - check message is changed 
