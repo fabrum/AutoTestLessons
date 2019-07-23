@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+    <test id="1">
+        <step1>open mail.ru</step1>
+        <step2>enter valid pass and wrong user Mail</step2>
+        <step3>see error massage</step3>
+    </test>
+    <test id="2">
+        <step1>open mail.ru</step1>
+        <step2>enter wrong pass and valid user Mail</step2>
+        <step3>see error form login</step3>
+    </test>
+    <test id="3">
+        <step1>open mail.ru</step1>
+        <step2>enter wrong pass and user Mail</step2>
+        <step3>see error form login</step3>
+    </test>
+</tests>
